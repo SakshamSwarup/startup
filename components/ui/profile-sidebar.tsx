@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 export default function ProfileSidebar() {
   return (
-    <Card className="h-full max-h-[600px] w-[300px] bg-white shadow-md">
+    <Card className="mt-6 h-full max-h-[600px] w-[300px] bg-white shadow-md">
       <div className="flex items-center justify-center pt-4">
         <Image
           src=""
