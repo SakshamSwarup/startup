@@ -120,6 +120,13 @@
     @apply bg-background text-foreground;
   }
 
+  h1 {
+    @apply text-3xl font-semibold;
+  }
+
+  h2 {
+    @apply text-2xl font-medium;
+  }
   p {
     @apply text-gray-500;
   }
