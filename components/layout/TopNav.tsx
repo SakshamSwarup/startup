@@ -9,7 +9,7 @@ export default function TopNav() {
   return (
     <header className="sticky top-0 z-50 flex w-full items-center justify-between border-b bg-white px-6 py-6">
       <div className="flex items-center gap-4">
-        <Link href="/dashborad" className="flex items-center gap-2 text-xl">
+        <Link href="/#" className="flex items-center gap-2 text-xl">
           <Home size={20} /> Home
         </Link>
         <div className="">
@@ -22,7 +22,7 @@ export default function TopNav() {
       </div>
 
       <div className="flex items-center gap-7">
-        <NavIcon icon={Home} label="Home" href="#" />
+        <NavIcon icon={Home} label="Home" href="./dashborad" />
         <NavIcon icon={Briefcase} label="Jobs" href="#" />
         <NavIcon icon={Mail} label="Messages" href="#" />
         <NavIcon icon={Bell} label="Notifications" href="#" />

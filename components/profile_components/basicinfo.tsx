@@ -17,8 +17,8 @@ export default function Basicinfo() {
       <Card className="m-0 overflow-hidden rounded-2xl p-0 pb-15">
         <div>
           <div className="h-50 rounded-t-2xl bg-gradient-to-r from-blue-500 to-purple-600"></div>
-          <div className="-mt-12 ml-6 flex w-fit justify-center border-4 border-black">
-            <Avatar className="h-50 w-50 rounded-full border-4 border-white">
+          <div className="-mt-12 ml-6 flex w-fit justify-center">
+            <Avatar className="h-55 w-55 rounded-full border-5 border-amber-50">
               <AvatarImage
                 className="object-cover"
                 src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg"
@@ -54,7 +54,7 @@ export default function Basicinfo() {
 
             <div className="flex flex-col items-center text-wrap">
               <h1>Average Rating</h1>
-              <h2>4.3/5</h2>
+              <h2>⭐4.3/5</h2>
             </div>
           </div>
         </CardContent>
@@ -69,7 +69,11 @@ export default function Basicinfo() {
         description="Lorem ipsum dolor sit amet 24e953b920a9cd0ff2e1d587742a2472"
       />
       <DetailCard
-        title="Education"
+        title="License and Certifications"
+        description="Lorem ipsum dolor sit amet 24e953b920a9cd0ff2e1d587742a2472"
+      />
+      <DetailCard
+        title="Hobbies and Interests"
         description="Lorem ipsum dolor sit amet 24e953b920a9cd0ff2e1d587742a2472"
       />
     </div>
